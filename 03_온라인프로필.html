@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>★문선이의 온라인 프로필★</title>
+	<link rel="stylesheet" type="text/css" href="03_온라인프로필.css">
+</head>
+<body bgcolor="#EFFBF5">
+	<figure> <!--이미지에 설명달기-->
+		<img src="images/가오갤.jpg" alt="가오갤은 사랑입니다" id="gaogel" border="3px" title="가오갤 중에 [가모라]가 제일 좋아요~">
+		<figcaption><font size="2"><이 사진은 제가 좋아하는 가디언즈오브더갤럭시의 멤버들입니다.></font></figcaption>
+	</figure>
+
+	<h1> <font color="#D7DF01">Moon</font>&nbsp;<font color="red">sun</font> Kim</h1>
+	<p>이메일 : jenny2103@naver.com </p>
+	<p><font size="2px"><a href="mailto:jenny2103@naver.com" id="mail"> > 여기를 클릭하면 메일을 보내실 수 있습니다.</a></font></p>
+	<br>
+	<h1><font color ="#AC58FA">Who I am?</font></h1>
+	<p> 13학번 쭈구리쭈구리...
+		사는 곳 미금역 어딘가에....
+	<br>
+		콩이 쿵이 말티즈 형제를 키우는 중입니다아..
+	</p>
+	<!--콩이 쿵이 사진 추가하기 -->
+	<img src="images/쿵콩이.jpg" alt="쿵이콩이 귀엽죠?!?!?" id="kungkong" border="3px" title="왼쪽이 쿵이, 오른쪽이 콩이!!">
+	<br>
+	<br>
+	<h1><font color="#FE9A2E"> 웹 사이트</font></h1>
+	<ul id="a" class="a">
+		<li> <a href="https://blog.naver.com/jenny2103" target="_blank" id="blogurl" title="요기를 클릭하면 제 블로그로 이동합니다~@@" style="text-decoration: none;">뭉써니 블로그 바로가기</a></li>
+		<font size="2"> >> 블로그를 하고 있지만... 올해부터 처음해보는거라..많이 부실합니다.</font>
+		<br>
+		<br>
+	</ul>
+	<br>
+	<br>
+	<hr align="center" width="60%">
+	
+	<h2><font color="#276D0E">Skils</font></h2>
+	<ul class="b">
+		<li><font size="4">사용언어</font>
+			<ul>
+				<li><mark>HTML</mark></li>
+				<li><mark>CSS</mark></li>
+				<li>C언어</li>
+				<li>JAVA & JSP</li>
+			</ul>
+		</li>
+		<br>
+		<li><font size="4">사용툴</font>
+			<ul>
+				<li>Notepad++ & 서브라인텍스트3</li>
+				<li>DEV-C++</li>
+				<li><b>Eclipse</b></li>
+				<li><b>Visual Studio</b></li>
+				<li>Unity</li>
+			</ul>
+		</li>
+	</ul>
+	<br>
+<!--학력사항을 추가하는 곳입니다.-->
+<h2><font color="#DF3A01">Academic</font></h2>
+<table align="center">
+	<caption> * 학력 사항 *</caption>
+	<thead>
+		<tr>
+			<th>출신학교</th>
+			<th>전공</th>
+			<th>기간</th>
+			<th>졸업구분</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td id="hs">00고등학교</td>
+			<td>문과</td>
+			<td>2010.03.02~2013.02.13</td>
+			<td>졸업</td>
+		</tr>
+		<tr>
+			<td id="univ">H 대학교</td>
+			<td><details><summary>컴퓨터공학과</summary><p>복수전공:해킹보안학과</details></td>
+			<td>2016.03.02~2019.08.21</td>
+			<td>졸업</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<br>
+<h2><font color="#6A0888">자격증 취득목록</font></h2>
+<label><font size="2" color="#424242"> 제가 취득한 자격증을 select optgroup태그를 사용하여 출력해봤습니다..</font>
+	<br>
+	<select id="license">
+		<optgroup label="OA">
+			<option>ITQ OA Master</option>
+			<option>컴퓨터활용능력2급</option>
+			<option>워드프로세서1급</option>
+			
+		</optgroup>
+		<optgroup label="교육">
+			<option>실기교사(전자계산)</option>
+		</optgroup>
+		<optgroup label="기사">
+			<option>정보처리기사</option>
+			
+			<option>전자계산기기사</option>
+			<option>사무자동화산업기사</option>
+			<option>정보보안기사는 공부중...</option>
+			<option>정보통신기사는 공부중...</option>
+		</optgroup>
+		
+		
+		
+	</select>
+	<!--자격증 목록은 끝-->
+	<!--음..-->
+	<br>
+	<br>
+</label>	
+<h2><font color="#3B52E8"> 사회경험</font></h2>
+<label><font size="2" color="#424242">사회경험은  1번했습니다.</font>
+	<br>
+	<input type="text" list="intern" placeholder="KT" id="intern">
+	<datalist id="intern">
+		<option value="KT ds 협력사">
+	</datalist>
+</label>
+<br><br><br><br><br>
+<h2>네이버 검색</h2>
+<form action="https://search.naver.com/search.naver" method="get" id="naver">
+	<input type="text" name="query" title="검색" placeholder="검색어를 입력하세요.">
+	<input type="submit" value="네이버 검색"> 
+</form>
+<br>
+<br>
+<a href="#top" id="t"> ∧ Go to top ∧</a> 
+<br>
+<br>
+</body>
+</html>

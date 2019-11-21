@@ -1,0 +1,26 @@
+
+body{
+	background-color: rgb(239, 251, 245);
+	padding: 10%;
+	font-family:  "a아띠";
+	cursor: url(cursor/그림1.cur), auto;
+	scroll-behavior: 
+}
+p{
+	text-align: center;
+}
+img{
+	width: 500px;
+	height: 300px;
+	border-style: dashed;
+	border-color: #58D3F7;
+}
+@font-face{
+	font-family: "FTLAB-HOONY TOON";
+	src:url("font/FTLAB-HOONY TOON.otf") format("opentype");
+}
+h1{
+	padding-top: 30px;
+	text-align: center;
+	font-family: FTLAB-HOONY TOON;/*FTLAB-HOONY TOON.otf*/
+}
